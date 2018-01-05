@@ -1195,11 +1195,14 @@ textarea:focus {
         width: 0;
         height: 0;
     }
-    .h-30{
-    	display: block;
+/*    .h-30{
+        display: block;
         overflow: hidden;
         width: 0;
         height: 0;
+    }*/
+    .h-30 {
+    height: 20px
     }
 }
 
@@ -1219,11 +1222,14 @@ textarea:focus {
         width: 0;
         height: 0;
     }
-    .h-30{
-    	display: block;
+/*    .h-30{
+        display: block;
         overflow: hidden;
         width: 0;
         height: 0;
+    }*/
+    .h-30 {
+    height: 10px
     }
 }
 
@@ -1244,10 +1250,13 @@ textarea:focus {
         width: 0;
         height: 0;
     }
-    .h-30{
+/*    .h-30{
     	display: block;
         overflow: hidden;
         width: 0;
         height: 0;
+    }*/
+    .h-30 {
+    height: 10px
     }
 }
