@@ -28,14 +28,6 @@
 ==================================================*/
 
 /*@import url(https://fonts.cat.net/css?family=Poppins:400,500,600,700);*/
- @font-face {
-    font-family: 'YourWebFontName';
-    src: url('YourWebFontName.eot'); /* IE9 Compat Modes */
-    src: url('YourWebFontName.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('YourWebFontName.woff') format('woff'), /* Modern Browsers */
-         url('YourWebFontName.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('YourWebFontName.svg#YourWebFontName') format('svg'); /* Legacy iOS */
-   }
 
 
 /* General
@@ -477,9 +469,9 @@ p{
     text-transform: uppercase
 }
 
-b i:last-child {
+/*b i:last-child {
     color: #ffbf00 !important;
-}
+}*/
 
 .box-intro h5 {
     letter-spacing: 4px;
@@ -571,7 +563,7 @@ b i:last-child {
     line-height: 1.0;
 }
 
-.box-words-wrapper {
+/*.box-words-wrapper {
     display: inline-block;
     position: relative;
 }
@@ -718,7 +710,7 @@ b i:last-child {
         -webkit-transform: translateZ(-20px) rotateX(-90deg);
         transform: translateZ(-20px) rotateX(-90deg);
     }
-}
+}*/
 
 
 /* portfolio section
