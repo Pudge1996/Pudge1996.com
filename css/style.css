@@ -1246,4 +1246,9 @@ textarea:focus {
     .h-30 {
     height: 10px
     }
+
+    div, iframe{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
