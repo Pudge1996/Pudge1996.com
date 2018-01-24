@@ -21,7 +21,7 @@
 html,
 body {
     height: 100%;
-    font-family: "Hiragino Sans GB";
+    font-family: "HelveticaNeue";
     line-height: 1.8;
     color: #999
 }
@@ -45,17 +45,19 @@ body {
 }
 
 a {
-    -webkit-transition: all .3s;
-    transition: all .3s;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-decoration: none;
+
 }
 
 p a{
-    color: #212121;
+    color: #737373;
 }
 
 p a:hover{
     text-decoration: none;
-
+    color: #212121;
 }
 
 .uppercase {
