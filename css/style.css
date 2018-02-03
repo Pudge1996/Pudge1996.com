@@ -52,11 +52,10 @@ a {
 }
 
 p a{
-    color: #737373;
+    color: #212121;
 }
 
 p a:hover{
-    text-decoration: none;
     color: #212121;
 }
 
