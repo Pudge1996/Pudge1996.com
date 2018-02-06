@@ -848,8 +848,12 @@ footer {
 }
 
 .copyright {
-    color: #ccc;
+    color: #999999;
     margin-bottom: 0;
+}
+
+.copyright a{
+	color: #999999;
 }
 
 footer img {
