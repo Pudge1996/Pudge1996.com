@@ -51,10 +51,6 @@ a {
 
 }
 
-p{
-    font-size: 13px;
-}
-
 p a{
     color: #212121;
 }
@@ -91,6 +87,8 @@ p a:hover{
     color: #ffbf00;
     font-size: 11px;
 }
+
+
 
 
 /* typography
@@ -1254,6 +1252,10 @@ textarea:focus {
     }*/
     .h-30 {
     height: 10px
+    }
+    
+    .copyright{
+    font-size: 13px;
     }
 
     div, iframe{
