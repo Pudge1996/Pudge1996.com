@@ -51,6 +51,10 @@ a {
 
 }
 
+p{
+    font-size: 13px;
+}
+
 p a{
     color: #212121;
 }
@@ -988,7 +992,7 @@ footer img {
 /* contact page
 ==================================================*/
 
-.details-text i {
+/*.details-text i {
     margin-right: 10px;
 }
 
@@ -1112,7 +1116,7 @@ textarea:focus {
 .btn-box:focus {
     background: #F5B700;
     color: #fff;
-}
+}*/
 
 
 /* single project page
