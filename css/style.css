@@ -13,6 +13,7 @@
     - contact page -
     - Portfolio single page -
     - Responsive media queries -
+    - Hover-underline-animation -
 */
 
 /* General
@@ -21,7 +22,9 @@
 html,
 body {
     height: 100%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*font-family: "Neue", Helvetica, Arial, sans-serif;*/
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
+    Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.8;
     color: #999
 }
@@ -57,6 +60,7 @@ p a{
 
 p a:hover{
     color: #212121;
+    text-decoration: none;
 }
 
 .uppercase {
@@ -88,9 +92,6 @@ p a:hover{
     font-size: 11px;
 }
 
-
-
-
 /* typography
 ==================================================*/
 
@@ -112,6 +113,13 @@ p{
 	color: #737373;
     
 }
+
+::selection {
+  background: #FFBF00;
+  color: white;
+}
+
+
 
 .icon_center{
     display: inline-block;
@@ -1262,4 +1270,100 @@ textarea:focus {
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+/* Hover-underline-animation
+==================================================*/
+
+/*Medium*/
+
+.hover-underline-animation-Medium {
+  display: inline-block;
+  position: relative;
+  color: #262626;
+}
+.hover-underline-animation-Medium::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #262626;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation-Medium:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/*Dirbbble*/
+
+.hover-underline-animation-Dribbble {
+  display: inline-block;
+  position: relative;
+  color: #ea4c89;
+}
+.hover-underline-animation-Dribbble::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ea4c89;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation-Dribbble:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/*Behance*/
+
+.hover-underline-animation-Behance {
+  display: inline-block;
+  position: relative;
+  color: #1769ff;
+}
+.hover-underline-animation-Behance::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #1769ff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation-Behance:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/*CreativeMarket*/
+
+.hover-underline-animation-CreativeMarket {
+  display: inline-block;
+  position: relative;
+  color: #8ba753;
+}
+.hover-underline-animation-CreativeMarket::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #8ba753;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.hover-underline-animation-CreativeMarket:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
