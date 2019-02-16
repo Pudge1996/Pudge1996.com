@@ -4,7 +4,7 @@
 
 HTML 模板: [BOX Theme](https://www.behance.net/gallery/36389511/Box-portfolio-Free-html-template)
 
-网站托管: [Netify](https://app.netlify.com/)
+网站托管: [Netlify](https://app.netlify.com/)
 
 CDN加速: [BootCDN](http://www.bootcdn.cn/)
 
